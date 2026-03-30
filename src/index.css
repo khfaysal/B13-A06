@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --text: #08060d;
+  --bg: #fff;
+  --accent: #aa3bff;
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--text);
+  background-color: var(--bg);
+  overflow-x: hidden;
+}
+
+/* Base custom styles to ensure design match */
+.btn-primary {
+  @apply bg-purple-600 hover:bg-purple-700 text-white rounded-full transition-colors border-none;
+}
+.btn-outline-primary {
+  @apply border border-purple-600 text-purple-600 hover:bg-purple-50 rounded-full transition-colors bg-transparent;
+}
