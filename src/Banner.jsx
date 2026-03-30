@@ -1,4 +1,5 @@
-import { FiPlayCircle, FiDisc } from 'react-icons/fi';
+import { FiPlayCircle } from 'react-icons/fi';
+import bannerImg from './assets/banner.png';
 
 const Banner = () => {
   return (
@@ -33,21 +34,13 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Right Content - Abstract Tech Graphic */}
-      <div className="flex-1 w-full flex justify-center lg:justify-end relative">
-        <div className="w-[450px] h-[450px] bg-gradient-to-tr from-purple-50 to-purple-100 rounded-3xl relative overflow-hidden flex items-center justify-center shadow-xl border border-white">
-          <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(170,59,255,0.4) 1px, transparent 0)', backgroundSize: '24px 24px' }}></div>
-          <div className="relative z-10 w-64 h-64 border border-purple-200 rounded-full flex items-center justify-center">
-            <div className="w-48 h-48 border border-purple-300 rounded-full flex items-center justify-center">
-              <div className="w-32 h-32 border border-purple-400 rounded-full flex items-center justify-center bg-white/50 backdrop-blur-sm">
-                <FiDisc size={64} className="text-purple-600 opacity-80" />
-              </div>
-            </div>
-          </div>
-          {/* Floating elements */}
-          <div className="absolute top-20 right-20 w-12 h-12 bg-white rounded-xl shadow-lg flex items-center justify-center"><div className="w-6 h-6 border-2 border-purple-400 rounded"></div></div>
-          <div className="absolute bottom-32 left-20 w-16 h-16 bg-white rounded-2xl shadow-lg flex items-center justify-center"><div className="w-8 h-8 rounded-full border-4 border-purple-300"></div></div>
-        </div>
+      {/* Right Content - Banner Image */}
+      <div className="flex-1 w-full flex justify-center lg:justify-end">
+        <img
+          src={bannerImg}
+          alt="Digital Workflow"
+          className="w-full max-w-[500px] h-auto object-contain rounded-2xl"
+        />
       </div>
     </section>
   );
