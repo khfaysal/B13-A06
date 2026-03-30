@@ -1,22 +1,15 @@
-# DigiTools Platform 🚀
+# DigiTools Platform
 
-A modern React application offering premium digital tools, design assets, templates, and productivity software for professionals and creators. This project demonstrates responsive layouts, state management, and clear UI/UX principles.
+A simple React project where you can browse digital tools, add them to a cart, and check out. Built with React and Tailwind CSS.
 
-## Technologies Used
-- **React.js**: Frontend component library and state management
-- **Tailwind CSS & DaisyUI**: Rapid UI styling and layout construction
-- **JavaScript (ES6+)**: Logic implementation
-- **React-Toastify**: Feedback and alert notifications
+## Tech Used
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- React-Toastify
+- JSON for product data
 
-## 3 Core Features
-
-1. **Dynamic Shopping Cart System** 🛒
-   - Easily add products to a dynamic, central cart state. The navigation bar features an intuitive cart counter badge that tracks selections in real-time.
-   - Switch effortlessly between "Products" and "Cart" views without hard-reloading. The custom toggle makes navigating cart contents seamless.
-
-2. **Responsive and Accessible Layout** 📱
-   - Structured around a flexible CSS-Grid and standard Tailwind responsive breakpoints, ensuring it looks beautiful on desktops, tablets, and mobile devices. 
-
-3. **Smooth Micro-Interactions** ✨
-   - "Buy Now" buttons provide immediate visual feedback by turning green and reading "Added to cart" temporarily.
-   - Removing items or checking out triggers customized `react-toastify` pop-up notifications to confirm actions clearly to the user.
+## Features
+1. **Product Cards** – Browse 6 digital tools with pricing, features, and tags. Click "Buy Now" to add to cart.
+2. **Cart System** – View selected items, see the total, remove items, or clear everything with "Proceed to Checkout".
+3. **Toast Notifications** – Get pop-up alerts when you add, remove, or checkout items.
