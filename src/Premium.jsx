@@ -1,6 +1,6 @@
 import { FiTrash2 } from 'react-icons/fi';
 import ProductCard from './ProductCard';
-import productsData from './data/products.json';
+import productsData from './data/products.js';
 
 // ---- Cart Summary (inline) ----
 const CartSummary = ({ cart, onRemove, onCheckout }) => {
