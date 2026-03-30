@@ -2,14 +2,12 @@ import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Stats from './components/Stats';
-import MainSection from './components/MainSection';
-import Steps from './components/Steps';
-import Pricing from './components/Pricing';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
+import Navbar from './Navbar';
+import Banner from './Banner';
+import Count from './Count';
+import Premium from './Premium';
+import TransparentPricing from './TransparentPricing';
+import Footer from './Footer';
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -39,8 +37,6 @@ function App() {
 
   const handleCartClick = () => {
     setActiveTab('cart');
-    
-    // Smooth scroll to MainSection
     const mainSection = document.getElementById('products');
     if (mainSection) {
       mainSection.scrollIntoView({ behavior: 'smooth' });
@@ -54,10 +50,9 @@ function App() {
       <Navbar cartCount={cart.length} onCartClick={handleCartClick} />
       
       <main>
-        <Hero />
-        <Stats />
-        
-        <MainSection 
+        <Banner />
+        <Count />
+        <Premium 
           activeTab={activeTab}
           setActiveTab={setActiveTab}
           cart={cart}
@@ -65,10 +60,7 @@ function App() {
           onRemoveFromCart={removeFromCart}
           onCheckout={proceedToCheckout}
         />
-        
-        <Steps />
-        <Pricing />
-        <CTA />
+        <TransparentPricing />
       </main>
 
       <Footer />
