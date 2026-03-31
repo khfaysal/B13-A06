@@ -4,7 +4,7 @@
     "name": "AI Writing Pro",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
     "price": 29,
-    "period": "Mo",
+    "period": "Month",
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": [
@@ -22,11 +22,7 @@
     "period": "One-Time",
     "tag": "Popular",
     "tagType": "popular",
-    "features": [
-      "2000+ templates",
-      "Monthly updates",
-      "Commercial license"
-    ],
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
     "image": "/src/assets/products/design-tool.png"
   },
   {
@@ -34,14 +30,10 @@
     "name": "Premium Stock Assets",
     "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
     "price": 19,
-    "period": "Mo",
+    "period": "Month",
     "tag": "New",
     "tagType": "new",
-    "features": [
-      "10M+ assets",
-      "Commercial use",
-      "No attribution"
-    ],
+    "features": ["10M+ assets", "Commercial use", "No attribution"],
     "image": "/src/assets/Camera.png"
   },
   {
@@ -49,14 +41,10 @@
     "name": "Automation Toolkit",
     "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
     "price": 79,
-    "period": "Mo",
+    "period": "Month",
     "tag": "Popular",
     "tagType": "popular",
-    "features": [
-      "50+ automations",
-      "API access",
-      "Custom workflows"
-    ],
+    "features": ["50+ automations", "API access", "Custom workflows"],
     "image": "/src/assets/operation.png"
   },
   {
@@ -67,11 +55,7 @@
     "period": "One-Time",
     "tag": "New",
     "tagType": "new",
-    "features": [
-      "100+ templates",
-      "ATS optimization",
-      "Export to PDF"
-    ],
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
     "image": "/src/assets/portfolio.png"
   },
   {
@@ -79,14 +63,10 @@
     "name": "Social Media Content Kit",
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
     "price": 39,
-    "period": "Mo",
+    "period": "Month",
     "tag": "Best Seller",
     "tagType": "best-seller",
-    "features": [
-      "5000+ assets",
-      "Scheduler included",
-      "Analytics dashboard"
-    ],
+    "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
     "image": "/src/assets/social-media.png"
   }
 ]
